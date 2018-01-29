@@ -59,6 +59,14 @@ If you know project ID of the script that you use, you can directly access to th
 - For Apps Script API
     - ``https://console.cloud.google.com/apis/library/script.googleapis.com/?project=### project ID ###``
 
+### About scopes
+ProjectApp2 uses 2 scopes.
+
+1. ``https://www.googleapis.com/auth/script.external_request``
+1. ``https://www.googleapis.com/auth/script.projects``
+
+These are provided from ProjectApp2 by Manifests. So users are not required to install these scopes.
+
 # Usage
 | Method | Return | Description |
 |:------|:------|:------|
